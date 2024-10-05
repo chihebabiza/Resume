@@ -1,9 +1,11 @@
 {
-  "homepage": "https://chihebabiza/github.io/Resume",
-  "name": "astro-boilerplate",
+  "homepage": "https://chihebabiza.github.io/Resume/",
+  "name": "Resume",
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "presdeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
